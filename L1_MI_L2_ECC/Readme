@@ -1,0 +1,18 @@
+
+approximate implementation of architecture of paper
+
+Enric Herrero, Joséonzáz, and Ramon Canal. 2010. Elastic cooperative caching: an autonomous dynamically adaptive memory hierarchy for chip multiprocessors. SIGARCH Comput. Archit. News 38, 3 (June 2010), 419-428. DOI=10.1145/1816038.1816018.
+
+
+
+Code detils
+L1 cache:  PRIV_L1
+L2 cache:  NPC
+
+
+build setup:
+
+Makefile requires
+1. 4x4 LisNoC verilated code
+2. Verilator tool
+3. trace file to be read (expects to be available in folder ./traces/)

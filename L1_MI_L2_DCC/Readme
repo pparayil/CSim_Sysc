@@ -1,0 +1,18 @@
+approximate implemntation of architecture "Distributed Cooperative Cache" 
+
+Herrero, E.; Gonzalez, J.; Canal, R. "Distributed Cooperative Caching: An Energy Efficient Memory Scheme for Chip Multiprocessors",  Parallel and Distributed Systems, IEEE Transactions on, On page(s): 853 - 861 Volume: 23, Issue: 5, May 2012.
+
+Code detils
+L1 cache:  PRIV_L1
+L2 cache:  NPC  
+
+build setup: 
+
+Makefile requires 
+1. 4x4 LisNoC verilated code 
+2. Verilator tool 
+3. trace file to be read (expects to be available in folder ./traces/)
+
+
+
+

@@ -1,0 +1,17 @@
+
+approximate implementation of paper
+
+M. Zhang and K. Asanovi_c. Victim Replication: Maximizing Capacity while Hiding Wire Delay in Tiled Chip Multiprocessors. In Int'l Symposium on Computer Architecture, 2005.
+
+
+Code detils
+L1 cache:  PRIV_L1
+L2 cache:  NPC
+L3 cache or shared static partition of L2:  LLC
+
+build setup:
+
+Makefile requires
+1. 4x4 LisNoC verilated code
+2. Verilator tool
+3. trace file to be read (expects to be available in folder ./traces/)

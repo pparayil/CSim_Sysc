@@ -1,0 +1,16 @@
+approximate implementation of 
+
+George Kurian, Omer Khan, and Srinivas Devadas. 2013. The locality-aware adaptive cache coherence protocol. SIGARCH Comput. Archit. News 41, 3 (June 2013), 523-534. DOI=10.1145/2508148.2485967
+
+
+code detils
+L1 cache:  PRIV_L1
+L2 cache:  NPC
+L3 cache or shared static partition of L2:  LLC
+
+build setup:
+
+Makefile requires
+1. 4x4 LisNoC verilated code
+2. Verilator tool
+3. trace file to be read (expects to be available in folder ./traces/)
